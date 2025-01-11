@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>continuation of tables</title>
+    </head>
+    <body>
+    <p>in this class we will learn how to combine rows and columns</p>
+    <table border="2" style="border-collapse:collapse; height: 300px; width: 80%">
+        <caption>our fun class Schedule</caption>
+        <!--tale headers-->
+        <tr>
+            <th>day</th>
+            <th>time</th>
+            <th>subject</th>
+        </tr>
+        <!--fill the monday schedule-->
+        <tr>
+            <td>Monday</td>
+            <td>08:00am to 08:45am</td>
+            <td>information technology</td>
+        </tr>
+        <!--tuesdays schecdule here we combine two rows for tuesday !--> 
+        <tr>
+            <td rowspan="2"> Tuesday</td>
+            <td>08:00AM - 08:45AM</td>
+            <td>Science</td>
+        </tr>
+        <tr>
+            <td>09:00 AM- 09:45AM</td>
+            <td>Mathematics</td>
+        </tr>
+
+        <!--Combine two columns -->
+        <tr>
+            <td>Wednesday</td>
+            <td colspan="2"> Field Trip </td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>
